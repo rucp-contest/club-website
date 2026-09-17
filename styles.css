@@ -93,6 +93,52 @@ h2 {
   font-weight: 500;
 }
 
+.references-main {
+  padding: 56px 0 72px;
+}
+
+.references-intro {
+  margin-bottom: 32px;
+}
+
+.reference-list {
+  display: grid;
+  gap: 14px;
+}
+
+.reference-group {
+  padding: 20px;
+  background: #18181e;
+  border: 1px solid #292930;
+  border-radius: 7px;
+}
+
+.reference-group h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.reference-links {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.reference-links li {
+  margin: 9px 0;
+  line-height: 1.5;
+}
+
+.reference-links a {
+  color: var(--heading);
+  border-bottom: 1px solid #555760;
+}
+
+.reference-links a:hover,
+.reference-links a:focus-visible {
+  color: var(--scarlet);
+  border-color: var(--scarlet);
+}
+
 h1 {
   max-width: 720px;
   font-size: 48px;
@@ -279,6 +325,10 @@ h2 {
 
   h1 {
     font-size: 40px;
+  }
+
+  .references-main {
+    padding: 44px 0 56px;
   }
 
   .about {
